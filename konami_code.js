@@ -4,7 +4,7 @@ let index = 0
 
 document.body.addEventListener('keydown', function(e) {
   if (e.which === code) {
-    alert('Congrats!')
+    alert("Hurray!")
   }
 })
 
@@ -15,7 +15,9 @@ function init() {
     index++;
 
     if (index === code.length) {
-      alert("Hurray!")
+      alert("Hurray!");
+
+      index = 0;
     }
 
   } else {
