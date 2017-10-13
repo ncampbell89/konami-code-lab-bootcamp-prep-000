@@ -17,4 +17,4 @@ function init() {
   }
 
 }
-init(e)
+init()
